@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gerador de CPF - Calcora</title>
+  <meta name="description" content="Gere CPFs válidos para testes de software, formulários e desenvolvimento.">
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<header>
+  <a class="logo" href="/">calc<span>ora</span></a>
+</header>
+
+<main>
+  <div class="card">
+
+    <h1>Gerador de CPF</h1>
+    <p>Gere CPFs válidos para testes. Não use para fins ilegais ou para se passar por outra pessoa.</p>
+
+    <label>Quantidade de CPFs</label>
+    <input id="quantity" type="number" min="1" max="100" value="1">
+
+    <button onclick="generateCPFs()">Gerar CPF(s)</button>
+
+    <div class="result" id="result"></div>
+
+  </div>
+</main>
+
+<script>
+function randomDigit() {
+  return Math.floor(Math.random() * 10);
+}
+
+function calculateDigit(numbers, factor) {
+  let total = 0;
+
+  for (let i = 0; i < numbers.length; i++) {
+    total += numbers[i] * factor;
+    factor--;
+  }
+
+  const rest = total % 11;
+  return rest < 2 ? 0 : 11 - rest;
+}
+
+function formatCPF(numbers) {
+  return numbers.join('').replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, '$1.$2.$3-$4');
+}
+
+function generateSingleCPF() {
+  const numbers = [];
+
+  for (let i = 0; i < 9; i++) {
+    numbers.push(randomDigit());
+  }
+
+  numbers.push(calculateDigit(numbers, 10));
+  numbers.push(calculateDigit(numbers, 11));
+
+  return formatCPF(numbers);
+}
+
+function generateCPFs() {
+  const quantityInput = document.getElementById('quantity');
+  let quantity = parseInt(quantityInput.value);
+
+  if (!quantity || quantity < 1) {
+    quantity = 1;
+  }
+
+  if (quantity > 100) {
+    quantity = 100;
+    quantityInput.value = 100;
+  }
+
+  const cpfs = [];
+
+  for (let i = 0; i < quantity; i++) {
+    cpfs.push(generateSingleCPF());
+  }
+
+  document.getElementById('result').innerHTML = cpfs.join('<br>');
+}
+</script>
+
+</body>
+</html>

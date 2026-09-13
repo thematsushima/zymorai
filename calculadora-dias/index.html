@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Calculadora de Dias Entre Datas - Calcora</title>
+  <meta name="description" content="Calcule quantos dias existem entre duas datas de forma simples e rápida.">
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<header>
+  <a class="logo" href="/">calc<span>ora</span></a>
+</header>
+
+<main>
+  <div class="card">
+
+    <h1>Calculadora de Dias Entre Datas</h1>
+    <p>Informe duas datas para calcular a diferença em dias.</p>
+
+    <label>Data inicial</label>
+    <input id="startDate" type="date">
+
+    <label>Data final</label>
+    <input id="endDate" type="date">
+
+    <button onclick="calculateDays()">Calcular dias</button>
+
+    <div class="result" id="result"></div>
+
+  </div>
+</main>
+
+<script>
+function calculateDays() {
+  const start = document.getElementById('startDate').value;
+  const end = document.getElementById('endDate').value;
+
+  if (!start || !end) {
+    document.getElementById('result').innerText = "Preencha as duas datas";
+    return;
+  }
+
+  const startDate = new Date(start + "T00:00:00");
+  const endDate = new Date(end + "T00:00:00");
+
+  const diffMs = endDate - startDate;
+  const diffDays = Math.round(diffMs / (1000 * 60 * 60 * 24));
+
+  document.getElementById('result').innerText =
+    "Diferença: " + Math.abs(diffDays) + " dia(s)";
+}
+</script>
+
+</body>
+</html>

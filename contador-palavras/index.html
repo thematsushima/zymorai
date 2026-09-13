@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="alternate" hreflang="pt-BR" href="https://calcora.xyz/contador-palavras/">
+  <link rel="alternate" hreflang="en-US" href="https://calcora.xyz/en/word-counter/">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contador de Palavras e Caracteres - Calcora</title>
+  <meta name="description" content="Conte palavras, caracteres, frases e parágrafos de um texto de forma rápida e gratuita.">
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<header>
+  <a class="logo" href="/">calc<span>ora</span></a>
+</header>
+
+<main>
+  <div class="card">
+
+    <p><a href="/en/word-counter/">English</a></p>
+
+    <h1>Contador de Palavras e Caracteres</h1>
+    <p>Cole ou digite seu texto abaixo para contar palavras, caracteres, frases e parágrafos.</p>
+
+    <label>Texto</label>
+    <textarea id="text" placeholder="Digite ou cole seu texto aqui..." oninput="countText()"></textarea>
+
+    <div class="result" id="result">
+      Palavras: 0<br>
+      Caracteres: 0<br>
+      Caracteres sem espaços: 0<br>
+      Frases: 0<br>
+      Parágrafos: 0
+    </div>
+
+  </div>
+</main>
+
+<script>
+function countText() {
+  const text = document.getElementById('text').value;
+
+  const trimmed = text.trim();
+
+  const words = trimmed
+    ? trimmed.split(/\s+/).filter(Boolean).length
+    : 0;
+
+  const characters = text.length;
+  const charactersNoSpaces = text.replace(/\s/g, '').length;
+
+  const sentences = trimmed
+    ? trimmed.split(/[.!?]+/).filter(sentence => sentence.trim().length > 0).length
+    : 0;
+
+  const paragraphs = trimmed
+    ? trimmed.split(/\n+/).filter(paragraph => paragraph.trim().length > 0).length
+    : 0;
+
+  document.getElementById('result').innerHTML =
+    "Palavras: " + words + "<br>" +
+    "Caracteres: " + characters + "<br>" +
+    "Caracteres sem espaços: " + charactersNoSpaces + "<br>" +
+    "Frases: " + sentences + "<br>" +
+    "Parágrafos: " + paragraphs;
+}
+</script>
+
+</body>
+</html>

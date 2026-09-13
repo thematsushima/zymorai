@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gerador de CNPJ - Calcora</title>
+  <meta name="description" content="Gere CNPJs válidos para testes de software, formulários e desenvolvimento.">
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<header>
+  <a class="logo" href="/">calc<span>ora</span></a>
+</header>
+
+<main>
+  <div class="card">
+
+    <h1>Gerador de CNPJ</h1>
+    <p>Gere CNPJs válidos para testes. Não use para fins ilegais ou para se passar por uma empresa real.</p>
+
+    <label>Quantidade de CNPJs</label>
+    <input id="quantity" type="number" min="1" max="100" value="1">
+
+    <button onclick="generateCNPJs()">Gerar CNPJ(s)</button>
+
+    <div class="result" id="result"></div>
+
+  </div>
+</main>
+
+<script>
+function randomDigit() {
+  return Math.floor(Math.random() * 10);
+}
+
+function calculateDigit(numbers, weights) {
+  let total = 0;
+
+  for (let i = 0; i < numbers.length; i++) {
+    total += numbers[i] * weights[i];
+  }
+
+  const rest = total % 11;
+  return rest < 2 ? 0 : 11 - rest;
+}
+
+function formatCNPJ(numbers) {
+  return numbers.join('').replace(/(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/, '$1.$2.$3/$4-$5');
+}
+
+function generateSingleCNPJ() {
+  const numbers = [];
+
+  for (let i = 0; i < 8; i++) {
+    numbers.push(randomDigit());
+  }
+
+  numbers.push(0, 0, 0, 1);
+
+  const digit1 = calculateDigit(numbers, [5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2]);
+  numbers.push(digit1);
+
+  const digit2 = calculateDigit(numbers, [6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2]);
+  numbers.push(digit2);
+
+  return formatCNPJ(numbers);
+}
+
+function generateCNPJs() {
+  const quantityInput = document.getElementById('quantity');
+  let quantity = parseInt(quantityInput.value);
+
+  if (!quantity || quantity < 1) {
+    quantity = 1;
+  }
+
+  if (quantity > 100) {
+    quantity = 100;
+    quantityInput.value = 100;
+  }
+
+  const cnpjs = [];
+
+  for (let i = 0; i < quantity; i++) {
+    cnpjs.push(generateSingleCNPJ());
+  }
+
+  document.getElementById('result').innerHTML = cnpjs.join('<br>');
+}
+</script>
+
+</body>
+</html>

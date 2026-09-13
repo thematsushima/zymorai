@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Calculadora de Combustível - Calcora</title>
+  <meta name="description" content="Calcule quanto você vai gastar de combustível em uma viagem ou trajeto.">
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<header>
+  <a class="logo" href="/">calc<span>ora</span></a>
+</header>
+
+<main>
+  <div class="card">
+    
+    <h1>Calculadora de Combustível</h1>
+
+    <label>Distância (km)</label>
+    <input id="distance" type="number" placeholder="Ex: 100">
+
+    <label>Consumo do carro (km/l)</label>
+    <input id="consumption" type="number" placeholder="Ex: 12">
+
+    <label>Preço do combustível (R$/l)</label>
+    <input id="price" type="number" placeholder="Ex: 5.50">
+
+    <button onclick="calculate()">Calcular</button>
+
+    <div class="result" id="result"></div>
+
+  </div>
+</main>
+
+<script>
+function calculate() {
+  const d = parseFloat(document.getElementById('distance').value);
+  const c = parseFloat(document.getElementById('consumption').value);
+  const p = parseFloat(document.getElementById('price').value);
+
+  if (!d || !c || !p) {
+    document.getElementById('result').innerText = "Preencha todos os campos";
+    return;
+  }
+
+  const litros = d / c;
+  const custo = litros * p;
+
+  document.getElementById('result').innerText =
+    "Você vai gastar aproximadamente R$ " + custo.toFixed(2);
+}
+</script>
+
+</body>
+</html>
