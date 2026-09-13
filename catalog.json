@@ -1,0 +1,2586 @@
+{
+  "universe": "The Zymorai Atlas",
+  "count": 151,
+  "elements": [
+    "Ember",
+    "Tide",
+    "Moss",
+    "Gale",
+    "Stone",
+    "Lumen",
+    "Dusk",
+    "Spark",
+    "Frost",
+    "Bloom",
+    "Astral"
+  ],
+  "creatures": [
+    {
+      "number": 1,
+      "name": "Cindlet",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Kindle Kick",
+        "Cindlet Whirl"
+      ],
+      "image": "assets/001-cindlet.png",
+      "form": "round",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 2,
+      "name": "Brastle",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Cinder Spiral",
+        "Brastle Pulse"
+      ],
+      "image": "assets/002-brastle.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 3,
+      "name": "Flarrow",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Hearth Roar",
+        "Flarrow Pounce"
+      ],
+      "image": "assets/003-flarrow.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 4,
+      "name": "Kindlup",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Kindle Kick",
+        "Kindlup Bloom"
+      ],
+      "image": "assets/004-kindlup.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 5,
+      "name": "Scorcha",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Cinder Spiral",
+        "Scorcha Beacon"
+      ],
+      "image": "assets/005-scorcha.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 6,
+      "name": "Pyrroo",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Hearth Roar",
+        "Pyrroo Whirl"
+      ],
+      "image": "assets/006-pyrroo.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 7,
+      "name": "Ashwink",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Kindle Kick",
+        "Ashwink Pulse"
+      ],
+      "image": "assets/007-ashwink.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 8,
+      "name": "Voltaur",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Cinder Spiral",
+        "Voltaur Pounce"
+      ],
+      "image": "assets/008-voltaur.png",
+      "form": "orb",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 9,
+      "name": "Blazetail",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Hearth Roar",
+        "Blazetail Bloom"
+      ],
+      "image": "assets/009-blazetail.png",
+      "form": "round",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 10,
+      "name": "Sparkrill",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Kindle Kick",
+        "Sparkrill Beacon"
+      ],
+      "image": "assets/010-sparkrill.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 11,
+      "name": "Charwhisp",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Cinder Spiral",
+        "Charwhisp Whirl"
+      ],
+      "image": "assets/011-charwhisp.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 12,
+      "name": "Corkinder",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Hearth Roar",
+        "Corkinder Pulse"
+      ],
+      "image": "assets/012-corkinder.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 13,
+      "name": "Magmaw",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Kindle Kick",
+        "Magmaw Pounce"
+      ],
+      "image": "assets/013-magmaw.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 14,
+      "name": "Suncinder",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Cinder Spiral",
+        "Suncinder Bloom"
+      ],
+      "image": "assets/014-suncinder.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 15,
+      "name": "Torchbit",
+      "element": "Ember",
+      "personality": "warm-hearted, bold, and easily excited",
+      "powers": "heat, courage, and bright kinetic bursts",
+      "signatureMoves": [
+        "Hearth Roar",
+        "Torchbit Beacon"
+      ],
+      "image": "assets/015-torchbit.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#f05b35",
+        "accent": "#ffcd58"
+      }
+    },
+    {
+      "number": 16,
+      "name": "Dripple",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Ripple Ring",
+        "Dripple Whirl"
+      ],
+      "image": "assets/016-dripple.png",
+      "form": "round",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 17,
+      "name": "Coralloo",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Moonwash",
+        "Coralloo Pulse"
+      ],
+      "image": "assets/017-coralloo.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 18,
+      "name": "Mistray",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Current Curl",
+        "Mistray Pounce"
+      ],
+      "image": "assets/018-mistray.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 19,
+      "name": "Rillfin",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Ripple Ring",
+        "Rillfin Bloom"
+      ],
+      "image": "assets/019-rillfin.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 20,
+      "name": "Tidereen",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Moonwash",
+        "Tidereen Beacon"
+      ],
+      "image": "assets/020-tidereen.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 21,
+      "name": "Bubblit",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Current Curl",
+        "Bubblit Whirl"
+      ],
+      "image": "assets/021-bubblit.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 22,
+      "name": "Neressa",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Ripple Ring",
+        "Neressa Pulse"
+      ],
+      "image": "assets/022-neressa.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 23,
+      "name": "Pluvet",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Moonwash",
+        "Pluvet Pounce"
+      ],
+      "image": "assets/023-pluvet.png",
+      "form": "orb",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 24,
+      "name": "Swellpaw",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Current Curl",
+        "Swellpaw Bloom"
+      ],
+      "image": "assets/024-swellpaw.png",
+      "form": "round",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 25,
+      "name": "Kelpip",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Ripple Ring",
+        "Kelpip Beacon"
+      ],
+      "image": "assets/025-kelpip.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 26,
+      "name": "Marimink",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Moonwash",
+        "Marimink Whirl"
+      ],
+      "image": "assets/026-marimink.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 27,
+      "name": "Currentle",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Current Curl",
+        "Currentle Pulse"
+      ],
+      "image": "assets/027-currentle.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 28,
+      "name": "Aqualyn",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Ripple Ring",
+        "Aqualyn Pounce"
+      ],
+      "image": "assets/028-aqualyn.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 29,
+      "name": "Foamlet",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Moonwash",
+        "Foamlet Bloom"
+      ],
+      "image": "assets/029-foamlet.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 30,
+      "name": "Lunatide",
+      "element": "Tide",
+      "personality": "gentle, adaptable, and quietly observant",
+      "powers": "flow, soothing currents, and mist",
+      "signatureMoves": [
+        "Current Curl",
+        "Lunatide Beacon"
+      ],
+      "image": "assets/030-lunatide.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#2476b9",
+        "accent": "#88e4ef"
+      }
+    },
+    {
+      "number": 31,
+      "name": "Mossprig",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Bramble Brace",
+        "Mossprig Whirl"
+      ],
+      "image": "assets/031-mossprig.png",
+      "form": "round",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 32,
+      "name": "Fernkin",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Pollen Puff",
+        "Fernkin Pulse"
+      ],
+      "image": "assets/032-fernkin.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 33,
+      "name": "Bramblet",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Rootstep",
+        "Bramblet Pounce"
+      ],
+      "image": "assets/033-bramblet.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 34,
+      "name": "Cloveroo",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Bramble Brace",
+        "Cloveroo Bloom"
+      ],
+      "image": "assets/034-cloveroo.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 35,
+      "name": "Thistail",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Pollen Puff",
+        "Thistail Beacon"
+      ],
+      "image": "assets/035-thistail.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 36,
+      "name": "Barkbit",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Rootstep",
+        "Barkbit Whirl"
+      ],
+      "image": "assets/036-barkbit.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 37,
+      "name": "Petalune",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Bramble Brace",
+        "Petalune Pulse"
+      ],
+      "image": "assets/037-petalune.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 38,
+      "name": "Vinepuff",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Pollen Puff",
+        "Vinepuff Pounce"
+      ],
+      "image": "assets/038-vinepuff.png",
+      "form": "orb",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 39,
+      "name": "Acornix",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Rootstep",
+        "Acornix Bloom"
+      ],
+      "image": "assets/039-acornix.png",
+      "form": "round",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 40,
+      "name": "Bloomble",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Bramble Brace",
+        "Bloomble Beacon"
+      ],
+      "image": "assets/040-bloomble.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 41,
+      "name": "Lichenling",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Pollen Puff",
+        "Lichenling Whirl"
+      ],
+      "image": "assets/041-lichenling.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 42,
+      "name": "Rosetail",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Rootstep",
+        "Rosetail Pulse"
+      ],
+      "image": "assets/042-rosetail.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 43,
+      "name": "Tanglepod",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Bramble Brace",
+        "Tanglepod Pounce"
+      ],
+      "image": "assets/043-tanglepod.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 44,
+      "name": "Nectari",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Pollen Puff",
+        "Nectari Bloom"
+      ],
+      "image": "assets/044-nectari.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 45,
+      "name": "Grovebun",
+      "element": "Moss",
+      "personality": "patient, caring, and stubbornly hopeful",
+      "powers": "growth, roots, and restorative pollen",
+      "signatureMoves": [
+        "Rootstep",
+        "Grovebun Beacon"
+      ],
+      "image": "assets/045-grovebun.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#4d8c4a",
+        "accent": "#c7e58a"
+      }
+    },
+    {
+      "number": 46,
+      "name": "Wispin",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Whistlewind",
+        "Wispin Whirl"
+      ],
+      "image": "assets/046-wispin.png",
+      "form": "round",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 47,
+      "name": "Gustle",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Feather Dash",
+        "Gustle Pulse"
+      ],
+      "image": "assets/047-gustle.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 48,
+      "name": "Zephroo",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Cloudskip",
+        "Zephroo Pounce"
+      ],
+      "image": "assets/048-zephroo.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 49,
+      "name": "Cloudet",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Whistlewind",
+        "Cloudet Bloom"
+      ],
+      "image": "assets/049-cloudet.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 50,
+      "name": "Whirlet",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Feather Dash",
+        "Whirlet Beacon"
+      ],
+      "image": "assets/050-whirlet.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 51,
+      "name": "Breezard",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Cloudskip",
+        "Breezard Whirl"
+      ],
+      "image": "assets/051-breezard.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 52,
+      "name": "Aeralyn",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Whistlewind",
+        "Aeralyn Pulse"
+      ],
+      "image": "assets/052-aeralyn.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 53,
+      "name": "Fluffern",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Feather Dash",
+        "Fluffern Pounce"
+      ],
+      "image": "assets/053-fluffern.png",
+      "form": "orb",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 54,
+      "name": "Kitebit",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Cloudskip",
+        "Kitebit Bloom"
+      ],
+      "image": "assets/054-kitebit.png",
+      "form": "round",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 55,
+      "name": "Swoopet",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Whistlewind",
+        "Swoopet Beacon"
+      ],
+      "image": "assets/055-swoopet.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 56,
+      "name": "Hushwing",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Feather Dash",
+        "Hushwing Whirl"
+      ],
+      "image": "assets/056-hushwing.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 57,
+      "name": "Driftail",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Cloudskip",
+        "Driftail Pulse"
+      ],
+      "image": "assets/057-driftail.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 58,
+      "name": "Vapora",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Whistlewind",
+        "Vapora Pounce"
+      ],
+      "image": "assets/058-vapora.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 59,
+      "name": "Skysprig",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Feather Dash",
+        "Skysprig Bloom"
+      ],
+      "image": "assets/059-skysprig.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 60,
+      "name": "Puffloon",
+      "element": "Gale",
+      "personality": "curious, quick-witted, and freedom-loving",
+      "powers": "wind paths, gliding, and sound",
+      "signatureMoves": [
+        "Cloudskip",
+        "Puffloon Beacon"
+      ],
+      "image": "assets/060-puffloon.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#7ca7c8",
+        "accent": "#e8fbff"
+      }
+    },
+    {
+      "number": 61,
+      "name": "Pebblin",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Cairn Guard",
+        "Pebblin Whirl"
+      ],
+      "image": "assets/061-pebblin.png",
+      "form": "round",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 62,
+      "name": "Craggle",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Rumble Roll",
+        "Craggle Pulse"
+      ],
+      "image": "assets/062-craggle.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 63,
+      "name": "Flintuff",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Granite Hush",
+        "Flintuff Pounce"
+      ],
+      "image": "assets/063-flintuff.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 64,
+      "name": "Bouldra",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Cairn Guard",
+        "Bouldra Bloom"
+      ],
+      "image": "assets/064-bouldra.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 65,
+      "name": "Gritbit",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Rumble Roll",
+        "Gritbit Beacon"
+      ],
+      "image": "assets/065-gritbit.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 66,
+      "name": "Shalebun",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Granite Hush",
+        "Shalebun Whirl"
+      ],
+      "image": "assets/066-shalebun.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 67,
+      "name": "Cairnox",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Cairn Guard",
+        "Cairnox Pulse"
+      ],
+      "image": "assets/067-cairnox.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 68,
+      "name": "Gravello",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Rumble Roll",
+        "Gravello Pounce"
+      ],
+      "image": "assets/068-gravello.png",
+      "form": "orb",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 69,
+      "name": "Basalisk",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Granite Hush",
+        "Basalisk Bloom"
+      ],
+      "image": "assets/069-basalisk.png",
+      "form": "round",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 70,
+      "name": "Rubblet",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Cairn Guard",
+        "Rubblet Beacon"
+      ],
+      "image": "assets/070-rubblet.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 71,
+      "name": "Quarrim",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Rumble Roll",
+        "Quarrim Whirl"
+      ],
+      "image": "assets/071-quarrim.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 72,
+      "name": "Cobbleroo",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Granite Hush",
+        "Cobbleroo Pulse"
+      ],
+      "image": "assets/072-cobbleroo.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 73,
+      "name": "Dusthorn",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Cairn Guard",
+        "Dusthorn Pounce"
+      ],
+      "image": "assets/073-dusthorn.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 74,
+      "name": "Terrafin",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Rumble Roll",
+        "Terrafin Bloom"
+      ],
+      "image": "assets/074-terrafin.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 75,
+      "name": "Monolith",
+      "element": "Stone",
+      "personality": "reliable, protective, and unhurried",
+      "powers": "shielding earth, resonance, and endurance",
+      "signatureMoves": [
+        "Granite Hush",
+        "Monolith Beacon"
+      ],
+      "image": "assets/075-monolith.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#756b65",
+        "accent": "#d8be92"
+      }
+    },
+    {
+      "number": 76,
+      "name": "Glimlet",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Beacon Bloom",
+        "Glimlet Whirl"
+      ],
+      "image": "assets/076-glimlet.png",
+      "form": "round",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 77,
+      "name": "Rayroo",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Golden Glint",
+        "Rayroo Pulse"
+      ],
+      "image": "assets/077-rayroo.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 78,
+      "name": "Solbit",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Sunstep",
+        "Solbit Pounce"
+      ],
+      "image": "assets/078-solbit.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 79,
+      "name": "Lucerna",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Beacon Bloom",
+        "Lucerna Bloom"
+      ],
+      "image": "assets/079-lucerna.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 80,
+      "name": "Dazzlepup",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Golden Glint",
+        "Dazzlepup Beacon"
+      ],
+      "image": "assets/080-dazzlepup.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 81,
+      "name": "Prismink",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Sunstep",
+        "Prismink Whirl"
+      ],
+      "image": "assets/081-prismink.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 82,
+      "name": "Haloam",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Beacon Bloom",
+        "Haloam Pulse"
+      ],
+      "image": "assets/082-haloam.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 83,
+      "name": "Goldfinch",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Golden Glint",
+        "Goldfinch Pounce"
+      ],
+      "image": "assets/083-goldfinch.png",
+      "form": "orb",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 84,
+      "name": "Flickeray",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Sunstep",
+        "Flickeray Bloom"
+      ],
+      "image": "assets/084-flickeray.png",
+      "form": "round",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 85,
+      "name": "Aureli",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Beacon Bloom",
+        "Aureli Beacon"
+      ],
+      "image": "assets/085-aureli.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 86,
+      "name": "Sunmoth",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Golden Glint",
+        "Sunmoth Whirl"
+      ],
+      "image": "assets/086-sunmoth.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 87,
+      "name": "Beamble",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Sunstep",
+        "Beamble Pulse"
+      ],
+      "image": "assets/087-beamble.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 88,
+      "name": "Shimmeron",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Beacon Bloom",
+        "Shimmeron Pounce"
+      ],
+      "image": "assets/088-shimmeron.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 89,
+      "name": "Daybloom",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Golden Glint",
+        "Daybloom Bloom"
+      ],
+      "image": "assets/089-daybloom.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 90,
+      "name": "Lustrella",
+      "element": "Lumen",
+      "personality": "generous, upbeat, and impossible to ignore",
+      "powers": "light, morale, and cleansing warmth",
+      "signatureMoves": [
+        "Sunstep",
+        "Lustrella Beacon"
+      ],
+      "image": "assets/090-lustrella.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#e5a733",
+        "accent": "#fff6a5"
+      }
+    },
+    {
+      "number": 91,
+      "name": "Murklet",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Velvet Veil",
+        "Murklet Whirl"
+      ],
+      "image": "assets/091-murklet.png",
+      "form": "round",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 92,
+      "name": "Velvetta",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Echo Nudge",
+        "Velvetta Pulse"
+      ],
+      "image": "assets/092-velvetta.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 93,
+      "name": "Nocturn",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Nightglow",
+        "Nocturn Pounce"
+      ],
+      "image": "assets/093-nocturn.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 94,
+      "name": "Gloamoo",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Velvet Veil",
+        "Gloamoo Bloom"
+      ],
+      "image": "assets/094-gloamoo.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 95,
+      "name": "Umbrafin",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Echo Nudge",
+        "Umbrafin Beacon"
+      ],
+      "image": "assets/095-umbrafin.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 96,
+      "name": "Duskmew",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Nightglow",
+        "Duskmew Whirl"
+      ],
+      "image": "assets/096-duskmew.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 97,
+      "name": "Echowisp",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Velvet Veil",
+        "Echowisp Pulse"
+      ],
+      "image": "assets/097-echowisp.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 98,
+      "name": "Nyxling",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Echo Nudge",
+        "Nyxling Pounce"
+      ],
+      "image": "assets/098-nyxling.png",
+      "form": "orb",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 99,
+      "name": "Shadowlark",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Nightglow",
+        "Shadowlark Bloom"
+      ],
+      "image": "assets/099-shadowlark.png",
+      "form": "round",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 100,
+      "name": "Vespera",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Velvet Veil",
+        "Vespera Beacon"
+      ],
+      "image": "assets/100-vespera.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 101,
+      "name": "Inkbit",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Echo Nudge",
+        "Inkbit Whirl"
+      ],
+      "image": "assets/101-inkbit.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 102,
+      "name": "Moondrift",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Nightglow",
+        "Moondrift Pulse"
+      ],
+      "image": "assets/102-moondrift.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 103,
+      "name": "Hushcat",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Velvet Veil",
+        "Hushcat Pounce"
+      ],
+      "image": "assets/103-hushcat.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 104,
+      "name": "Twilix",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Echo Nudge",
+        "Twilix Bloom"
+      ],
+      "image": "assets/104-twilix.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 105,
+      "name": "Stellashade",
+      "element": "Dusk",
+      "personality": "thoughtful, private, and surprisingly playful with trusted friends",
+      "powers": "shadows, echoes, and starlit concealment",
+      "signatureMoves": [
+        "Nightglow",
+        "Stellashade Beacon"
+      ],
+      "image": "assets/105-stellashade.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#3e2b65",
+        "accent": "#ad8ae7"
+      }
+    },
+    {
+      "number": 106,
+      "name": "Zapple",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Static Skip",
+        "Zapple Whirl"
+      ],
+      "image": "assets/106-zapple.png",
+      "form": "round",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 107,
+      "name": "Voltkit",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Bright Bolt",
+        "Voltkit Pulse"
+      ],
+      "image": "assets/107-voltkit.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 108,
+      "name": "Crackleon",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Magnet Mingle",
+        "Crackleon Pounce"
+      ],
+      "image": "assets/108-crackleon.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 109,
+      "name": "Fizbit",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Static Skip",
+        "Fizbit Bloom"
+      ],
+      "image": "assets/109-fizbit.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 110,
+      "name": "Ampuff",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Bright Bolt",
+        "Ampuff Beacon"
+      ],
+      "image": "assets/110-ampuff.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 111,
+      "name": "Joltrix",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Magnet Mingle",
+        "Joltrix Whirl"
+      ],
+      "image": "assets/111-joltrix.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 112,
+      "name": "Sizzlebee",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Static Skip",
+        "Sizzlebee Pulse"
+      ],
+      "image": "assets/112-sizzlebee.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 113,
+      "name": "Flashpaw",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Bright Bolt",
+        "Flashpaw Pounce"
+      ],
+      "image": "assets/113-flashpaw.png",
+      "form": "orb",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 114,
+      "name": "Rumblebug",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Magnet Mingle",
+        "Rumblebug Bloom"
+      ],
+      "image": "assets/114-rumblebug.png",
+      "form": "round",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 115,
+      "name": "Kinetik",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Static Skip",
+        "Kinetik Beacon"
+      ],
+      "image": "assets/115-kinetik.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 116,
+      "name": "Charglet",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Bright Bolt",
+        "Charglet Whirl"
+      ],
+      "image": "assets/116-charglet.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 117,
+      "name": "Blinkit",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Magnet Mingle",
+        "Blinkit Pulse"
+      ],
+      "image": "assets/117-blinkit.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 118,
+      "name": "Tessaroo",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Static Skip",
+        "Tessaroo Pounce"
+      ],
+      "image": "assets/118-tessaroo.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 119,
+      "name": "Zingfin",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Bright Bolt",
+        "Zingfin Bloom"
+      ],
+      "image": "assets/119-zingfin.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 120,
+      "name": "Stormip",
+      "element": "Spark",
+      "personality": "mischievous, inventive, and always in motion",
+      "powers": "electric pulses, speed, and magnetic tricks",
+      "signatureMoves": [
+        "Magnet Mingle",
+        "Stormip Beacon"
+      ],
+      "image": "assets/120-stormip.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#d69b17",
+        "accent": "#fff074"
+      }
+    },
+    {
+      "number": 121,
+      "name": "Frostell",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Rime Ribbon",
+        "Frostell Whirl"
+      ],
+      "image": "assets/121-frostell.png",
+      "form": "round",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 122,
+      "name": "Glacibun",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Crystal Curl",
+        "Glacibun Pulse"
+      ],
+      "image": "assets/122-glacibun.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 123,
+      "name": "Chillip",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Stillflake",
+        "Chillip Pounce"
+      ],
+      "image": "assets/123-chillip.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 124,
+      "name": "Icelyn",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Rime Ribbon",
+        "Icelyn Bloom"
+      ],
+      "image": "assets/124-icelyn.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 125,
+      "name": "Rimekit",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Crystal Curl",
+        "Rimekit Beacon"
+      ],
+      "image": "assets/125-rimekit.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 126,
+      "name": "Snowlark",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Stillflake",
+        "Snowlark Whirl"
+      ],
+      "image": "assets/126-snowlark.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 127,
+      "name": "Crystaloo",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Rime Ribbon",
+        "Crystaloo Pulse"
+      ],
+      "image": "assets/127-crystaloo.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 128,
+      "name": "Flurrbit",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Crystal Curl",
+        "Flurrbit Pounce"
+      ],
+      "image": "assets/128-flurrbit.png",
+      "form": "orb",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 129,
+      "name": "Boreal",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Stillflake",
+        "Boreal Bloom"
+      ],
+      "image": "assets/129-boreal.png",
+      "form": "round",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 130,
+      "name": "Hailhop",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Rime Ribbon",
+        "Hailhop Beacon"
+      ],
+      "image": "assets/130-hailhop.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 131,
+      "name": "Wintero",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Crystal Curl",
+        "Wintero Whirl"
+      ],
+      "image": "assets/131-wintero.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 132,
+      "name": "Sleetail",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Stillflake",
+        "Sleetail Pulse"
+      ],
+      "image": "assets/132-sleetail.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 133,
+      "name": "Polarpuff",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Rime Ribbon",
+        "Polarpuff Pounce"
+      ],
+      "image": "assets/133-polarpuff.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 134,
+      "name": "Shardlet",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Crystal Curl",
+        "Shardlet Bloom"
+      ],
+      "image": "assets/134-shardlet.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 135,
+      "name": "Nivalis",
+      "element": "Frost",
+      "personality": "calm, precise, and loyal once they choose you",
+      "powers": "cooling air, crystal shields, and patient focus",
+      "signatureMoves": [
+        "Stillflake",
+        "Nivalis Beacon"
+      ],
+      "image": "assets/135-nivalis.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#6aaacb",
+        "accent": "#dffaff"
+      }
+    },
+    {
+      "number": 136,
+      "name": "Rosette",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Petal Pop",
+        "Rosette Whirl"
+      ],
+      "image": "assets/136-rosette.png",
+      "form": "round",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 137,
+      "name": "Poppin",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Scentwave",
+        "Poppin Pulse"
+      ],
+      "image": "assets/137-poppin.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 138,
+      "name": "Lilabee",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Ribbon Bloom",
+        "Lilabee Pounce"
+      ],
+      "image": "assets/138-lilabee.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 139,
+      "name": "Dahlit",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Petal Pop",
+        "Dahlit Bloom"
+      ],
+      "image": "assets/139-dahlit.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 140,
+      "name": "Peonix",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Scentwave",
+        "Peonix Beacon"
+      ],
+      "image": "assets/140-peonix.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 141,
+      "name": "Mallowmew",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Ribbon Bloom",
+        "Mallowmew Whirl"
+      ],
+      "image": "assets/141-mallowmew.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 142,
+      "name": "Irisprig",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Petal Pop",
+        "Irisprig Pulse"
+      ],
+      "image": "assets/142-irisprig.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 143,
+      "name": "Zinniax",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Scentwave",
+        "Zinniax Pounce"
+      ],
+      "image": "assets/143-zinniax.png",
+      "form": "orb",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 144,
+      "name": "Camelloo",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Ribbon Bloom",
+        "Camelloo Bloom"
+      ],
+      "image": "assets/144-camelloo.png",
+      "form": "round",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 145,
+      "name": "Tulipup",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Petal Pop",
+        "Tulipup Beacon"
+      ],
+      "image": "assets/145-tulipup.png",
+      "form": "leaf",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 146,
+      "name": "Fuchsi",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Scentwave",
+        "Fuchsi Whirl"
+      ],
+      "image": "assets/146-fuchsi.png",
+      "form": "wing",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 147,
+      "name": "Orchidot",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Ribbon Bloom",
+        "Orchidot Pulse"
+      ],
+      "image": "assets/147-orchidot.png",
+      "form": "horn",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 148,
+      "name": "Bloomkin",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Petal Pop",
+        "Bloomkin Pounce"
+      ],
+      "image": "assets/148-bloomkin.png",
+      "form": "fin",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 149,
+      "name": "Safflet",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Scentwave",
+        "Safflet Bloom"
+      ],
+      "image": "assets/149-safflet.png",
+      "form": "tail",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 150,
+      "name": "Magnolia",
+      "element": "Bloom",
+      "personality": "expressive, affectionate, and artistically brave",
+      "powers": "fragrance, colour, and mood-lifting spores",
+      "signatureMoves": [
+        "Ribbon Bloom",
+        "Magnolia Beacon"
+      ],
+      "image": "assets/150-magnolia.png",
+      "form": "ear",
+      "colors": {
+        "primary": "#cf668e",
+        "accent": "#ffd0e0"
+      }
+    },
+    {
+      "number": 151,
+      "name": "Cometip",
+      "element": "Astral",
+      "personality": "imaginative, serene, and drawn to the unknown",
+      "powers": "gravity wisps, constellation maps, and dreamlight",
+      "signatureMoves": [
+        "Orbit Orb",
+        "Cometip Whirl"
+      ],
+      "image": "assets/151-cometip.png",
+      "form": "round",
+      "colors": {
+        "primary": "#3d3b80",
+        "accent": "#a5d8ff"
+      }
+    }
+  ]
+}
